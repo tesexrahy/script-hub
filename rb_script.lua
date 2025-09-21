@@ -8,7 +8,7 @@ end
 
 local function loadAll() 
   loadingScreen()
-  loadScripts()
+  loadScript()
 end
 
 task.spawn(loadAll)
