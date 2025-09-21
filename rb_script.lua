@@ -11,4 +11,4 @@ local function loadAll()
   loadScripts()
 end
 
-task.spawn(loadScript)
+task.spawn(loadAll)
